@@ -1,0 +1,54 @@
+.menu-container {
+    display: none;
+    background: $black;
+    //display: table;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    font-family: $font-family-text;
+    font-size: $font-size-regular;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.menu-container--on {
+    width: 90%;
+}
+
+.menu-container--in {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.menu {
+
+    li {
+        display: table;
+        line-height: 3;
+    }
+
+    a {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        display: inline-block;;
+
+        &:hover {
+
+            color: $salmon;
+        }
+
+    }
+}

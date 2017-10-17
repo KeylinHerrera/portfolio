@@ -1,4 +1,89 @@
+* {
+  margin: 0 auto;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%; }
+
+.full-wrapper {
+  width: 100%; }
+
+.container {
+  width: 90%; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after, .clearfix:after {
+  clear: both; }
+
+.header-inner {
+  margin: 2rem 0;
+  position: relative; }
+
+.logo {
+  width: 18%;
+  position: absolute; }
+
+.menu-container {
+  display: none;
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.menu-container--on {
+  width: 90%; }
+
+.menu-container--in {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+  .menu-container--in ul {
+    list-style-type: none; }
+  .menu-container--in a {
+    text-decoration: none;
+    color: #FFF; }
+
+.menu li {
+  display: table;
+  line-height: 3; }
+.menu a {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display: inline-block; }
+  .menu a:hover {
+    color: #F15B55; }
+
+.social-container {
+  margin-top: 72px;
+  text-align: center; }
+  .social-container li {
+    display: inline;
+    padding: 1rem; }
+  .social-container a {
+    display: inline-block; }
+
+.menu__button--open img {
+  position: absolute;
+  right: 0;
+  width: 5%; }
+
+.menu__button--close img {
+  width: 3%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem; }
 
 /*# sourceMappingURL=styles.css.map */

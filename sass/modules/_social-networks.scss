@@ -1,0 +1,13 @@
+.social-container {
+    margin-top: 72px;
+    text-align: center;
+
+    li {
+        display: inline;
+        padding: $space-xx-small;
+    }
+
+    a {
+        display: inline-block;
+    }
+}
