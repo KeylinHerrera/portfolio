@@ -12,7 +12,7 @@ html {
   width: 100%; }
 
 .container {
-  width: 90%; }
+  width: 95%; }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -21,8 +21,17 @@ html {
   clear: both; }
 
 .header-inner {
-  margin: 2rem 0;
+  margin: 2rem 0 3rem 0;
   position: relative; }
+
+.intro-container {
+  height: 100vh;
+  background-color: #F3C12E;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .intro-container img {
+    max-width: 90%; }
 
 .logo {
   width: 18%;
@@ -63,7 +72,9 @@ html {
   text-transform: uppercase;
   display: inline-block; }
   .menu a:hover {
-    color: #F15B55; }
+    color: #F15B55;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
 
 .social-container {
   margin-top: 72px;
@@ -73,6 +84,10 @@ html {
     padding: 1rem; }
   .social-container a {
     display: inline-block; }
+    .social-container a:hover {
+      color: #F15B55;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
 
 .menu__button--open img {
   position: absolute;
@@ -80,7 +95,7 @@ html {
   width: 5%; }
 
 .menu__button--close img {
-  width: 3%;
+  width: 5%;
   position: absolute;
   top: 0;
   right: 0;
