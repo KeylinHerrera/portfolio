@@ -11,10 +11,15 @@ html {
     font-size: 62.5%;
 }
 
-.full-wrapper {
-    width: 100%;
+header {
+    width: 95%;
 }
 
-.container {
-    width: 95%;
+strong {
+    font-weight: 800;
+    color: $color-text-accent;
+}
+
+.full-wrapper {
+    width: 100%;
 }

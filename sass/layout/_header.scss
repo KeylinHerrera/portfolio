@@ -1,4 +1,9 @@
 .header-inner {
-    margin: $space-x-small 0 $space-small 0;
+    margin: $space-xx-small 0 $space-x-small 0;
     position: relative;
+
+    @include query(600px){
+
+        margin: $space-xx-small 0 $space-small 0;
+    }
 }

@@ -48,20 +48,40 @@
       <main class="main-container">
 
         <section class="intro-container">
-          <img src="gif/460.gif">
+          <picture>
+            <source media="(min-width: 780px)" srcset="gif/720.gif">
+            <source media="(min-width: 340px)" srcset="gif/460.gif">
+            <img src="gif/720.gif">
+          </picture>
         </section>
         
         <!--Star About Me Section-->
         <section class="about-me l-vertical">
-          <div class="about-me__tittle">
+          <div class="about-me__tittle l-vertical-item l-vertical-item-top">
             <h1>About me</h1>
           </div>
-          <div class="about-me__description">
-            <h2>Hello,</h2>
-            <p>I am Keylin Herrera, Advertasing Desinger and Web Developer. I really enjoy alaboutecnologyanArt.  listening Metal music and I love illustrate in my free time.</p>
+          <div class="about-me__description l-vertical-item l-vertical-item-bottom">
+            <div class="l-vertical-item-content">
+              <div>
+                <h2>Hello,</h2>
+              </div>
+              <div>
+                <p><strong>I am Keylin Herrera, Advertasing Desinger and Web Developer.</strong> I really enjoy all about Tecnology and Art. I listening Metal music and I love illustrate in my free time.</p>
+              </div>
+            </div>
+            
           </div>
         <!--End About Me Section--> 
-      </section>
+        </section>
+
+        <!--Star Skills Section-->
+        <section class="skills l-horizonal">
+          <div class="skills__tittle l-vertical-item l-vertical-item-top">
+            <h1>Skills</h1>
+          </div>
+          
+        <!--End Skills Section-->    
+        </section>
 
       <!--Star Main Container-->   
       </main>

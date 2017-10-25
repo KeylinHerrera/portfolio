@@ -1,4 +1,10 @@
 .logo {
     width: 16%;
     position: absolute;
+
+    @include query(600px){
+
+        width: 7%;
+    }
+    
 }
