@@ -1,13 +1,13 @@
 .menu__button--open {
 
-    img  {
-        position: absolute;
-        right: 0;
+    img {
+
+        margin: 10px 2px;
+        float: right;
         width: 5%;
-
-
+        
         @include query(600px){
-
+            
             width: 2%;
 
         }
@@ -17,16 +17,18 @@
 .menu__button--close {
 
     img  {
-        width: 9%;
+        
+        padding: 1.5rem 1rem;
         position: absolute;
+        right: 13px;
         top: 0;
-        right: 0;
-        padding: 2rem 1rem;
+        width: 9%;
 
         @include query(600px){
 
-            right: -15px;
             padding: 2rem 5rem;
+            right: -15px;
+            
 
         }
     }
