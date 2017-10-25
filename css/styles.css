@@ -25,16 +25,16 @@ html {
   position: relative; }
 
 .intro-container {
-  height: 100vh;
+  height: 93vh;
   background-color: #F3C12E;
   display: flex;
   align-items: center;
   justify-content: center; }
   .intro-container img {
-    max-width: 90%; }
+    max-width: 100%; }
 
 .logo {
-  width: 18%;
+  width: 16%;
   position: absolute; }
 
 .menu-container {
@@ -95,10 +95,10 @@ html {
   width: 5%; }
 
 .menu__button--close img {
-  width: 5%;
+  width: 9%;
   position: absolute;
   top: 0;
   right: 0;
-  padding: 2rem; }
+  padding: 2rem 1rem; }
 
 /*# sourceMappingURL=styles.css.map */
