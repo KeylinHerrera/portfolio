@@ -1,0 +1,125 @@
+.medea {
+  background-image: url("../img/medea.jpg");
+}
+
+.blackjack {
+  background-image: url("../img/blackjack.png");
+}
+
+.sound-wave {
+  background-image: url("../img/audio.png");
+}
+
+.cetav {
+  background-image: url("../img/cetav.png");
+}
+
+.projects-items {
+
+  @include query(600px){
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+  }
+}
+
+.project {
+  background-color: $black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  font-family: $font-family-text;
+  font-size: $font-size-regular;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 1rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 90%;
+
+  &:hover {
+    border: 4px solid $salmon;
+  }
+
+  @include query(600px){
+        width: 32%;
+   }
+}
+
+.project .title {
+  left: 25px;
+  padding: 2rem 1.5rem 2rem;
+  position: absolute;
+  top: 58%;
+}
+
+.project .title:before,
+.project .title:after {
+  height: 2px;
+  width: 40rem;
+  position: absolute;
+  content: '';
+  background-color: $white;
+}
+
+.project .title:before {
+  left: 1rem;
+  top: 0;
+  
+}
+
+.project .title:after {
+  bottom: 0;
+  right: 1rem;
+}
+
+.project .title div:before,
+.project .title div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  background-color: $white
+}
+
+.project .title div:before {
+  top: 1rem;
+  right: 0;
+}
+
+.project .title div:after {
+  bottom: 10px;
+  left: 0;
+}
+
+.project h2,
+.project h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.project h2 {
+  font-weight: 400;
+}
+
+.project h4 {
+  display: block;
+  font-weight: 700;
+  background-color: $white;
+  padding: 5px 10px;
+  color: $black;
+}
+
+.project a {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
